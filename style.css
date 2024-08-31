@@ -1,0 +1,364 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+ * {
+     margin: 0%;
+     padding: 0%;
+     box-sizing: border-box;
+     font-weight: bold;
+     color: white;
+
+
+ }
+
+ body {
+     background-color: #2c2c2c;
+     font-family: "Montserrat Subrayada", sans-serif;
+     /*   background-image:url(./istockphoto-1173451503-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+ }
+
+ header {
+     height: 150px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     border-bottom: 1px solid black;
+ }
+
+ ul {
+     display: flex;
+     list-style: none;
+
+ }
+
+ ul li a{
+     margin: 0px 5px;
+     border: 1px solid white;
+     padding: 0px 10px;
+     text-decoration: none;
+     border-radius: 50px;
+ }
+
+ .logo1 {
+     height: 130px;
+
+ }
+
+ .Sign-up {
+     background-color: white;
+     color: black;
+ }
+
+ .Sign-up:hover {
+     background-color: black;
+     color: white;
+ }
+
+ main {
+     display: flex;
+     height: 100vh;
+     justify-content: space-evenly;
+     align-items: center;
+     margin: 0px 150px;
+ }
+
+ .contentleft {
+     flex: 1;
+ }
+
+ .contentmid {
+     flex: 2;
+ }
+
+ .contentright {
+     flex: 1;
+ }
+
+ .mercury {
+     max-width: 470px;
+     height: auto;
+     margin-left: 50px;
+     margin-bottom: -10px;
+
+ }
+
+ .has1 {
+     margin-left: 180px;
+ }
+
+ .btn {
+     margin-top: 3px;
+     padding: 15px 30px;
+     background: white;
+     outline: none;
+     border: none;
+     color: black;
+     border-radius: 50px;
+     font-weight: 700;
+ }
+
+ .btn:hover {
+     background-color: #2c2c2d;
+     color: white;
+     border: 2px solid white;
+ }
+
+ main h2 {
+     font-size: 30px;
+     text-transform: uppercase;
+ }
+
+ main p {
+     font-size: 14px;
+     font-weight: 200;
+     line-height: 31.5px;
+     margin: 30px 0px;
+ }
+
+ .page2 {
+     background-color: #2c2c2c;
+     height: 100vh;
+ }
+
+ .contentleft2 {
+     flex: 1;
+ }
+
+ .contentmid2 {
+     flex: 2;
+ }
+
+ .contentright2 {
+     flex: 1;
+ }
+
+ .jupiter {
+     max-width: 300px;
+     height: auto;
+     margin-left: 115px;
+     margin-bottom: 20px;
+
+ }
+
+ .has2 {
+     margin-left: 150px;
+ }
+
+ .btn2 {
+     margin-top: 30px;
+     padding: 15px 30px;
+     background: white;
+     outline: none;
+     border: none;
+     color: black;
+     border-radius: 50px;
+     font-weight: 700;
+ }
+
+ .btn2:hover {
+     background-color: #2c2c2c;
+     color: white;
+     border: 2px solid white;
+ }
+
+ .p2 {
+     font-size: 14px;
+     font-weight: 200;
+     line-height: 31.5px;
+     margin: 0px 10px;
+ }
+
+ .has {
+     padding: 0px 150px;
+
+ }
+
+ .page3 {
+     background-color: #343131;
+     height: 100vh;
+ }
+
+ .contentleft4 {
+     flex: 1;
+ }
+
+ .contentmid4 {
+     flex: 2;
+ }
+
+ .contentright4 {
+     flex: 1;
+ }
+
+ .venus {
+     max-width: 350px;
+     height: auto;
+     margin-left: 50px;
+     margin-bottom: -10px;
+ }
+
+ .btn4 {
+     margin-top: 17px;
+     padding: 15px 30px;
+     background: white;
+     outline: none;
+     border: none;
+     color: black;
+     border-radius: 50px;
+     font-weight: 700;
+ }
+
+ .has3 {
+     margin-left: 130px;
+ }
+
+ .btn4:hover {
+     background-color: #2c2c2c;
+     color: white;
+     border: 2px solid white;
+ }
+
+ .page4 {
+     background-color: #2c2c2c;
+ }
+
+ .contentleft5 {
+     flex: 1;
+ }
+
+ .contentmid5 {
+     flex: 2;
+ }
+
+ .contentright5 {
+     flex: 1;
+ }
+
+ .earth {
+     max-width: 300px;
+     height: auto;
+     margin-left: 115px;
+     margin-bottom: 20px;
+ }
+
+ .btn5 {
+     margin-top: 17px;
+     padding: 15px 30px;
+     background: white;
+     outline: none;
+     border: none;
+     color: black;
+     border-radius: 50px;
+     font-weight: 700;
+ }
+
+ .btn5:hover {
+     background-color: #2c2c2c;
+     color: white;
+     border: 2px solid white;
+ }
+
+ .has4 {
+     margin-left: 163px;
+ }
+
+ .page5 {
+     background-color: #343131;
+ }
+
+ .contentleft{
+     flex: 1;
+ }
+
+ .contentmid {
+     flex: 2;
+ }
+ .contentright{
+    flex:1;
+ }
+
+ .mars {
+     max-width: 390px;
+     height: auto;
+     margin-left: 115px;
+     margin-bottom: 20px;
+ }
+
+ .btn6 {
+     margin-top: 17px;
+     padding: 15px 30px;
+     background: white;
+     outline: none;
+     border: none;
+     color: black;
+     border-radius: 50px;
+     font-weight: 700;
+ }
+
+ .btn6:hover {
+     background-color: #343131;
+     color: white;
+     border: 2px solid white;
+ }
+
+ .has5 {
+     margin-left: 200px;
+ }
+ .page6{
+    background-color: #343131;
+ }
+ .has6{
+    margin-left: 200px;
+ }
+ .has7{
+    margin-left: 210px;
+ }
+ .btn7{
+    margin-top: 17px;
+    padding: 15px 30px;
+    background: white;
+    outline: none;
+    border: none;
+    color: black;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.btn7:hover {
+    background-color: #2c2c2c;
+    color: white;
+    border: 2px solid white;
+}
+.page8{
+    background-color: #343131;
+}
+.btn8{
+    margin-top: 17px;
+    padding: 15px 30px;
+    background: white;
+    outline: none;
+    border: none;
+    color: black;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.btn8:hover {
+    background-color: #343131;
+    color: white;
+    border: 2px solid white;
+}
+
+.low{
+    margin-top: -100px;
+}
+
+footer{
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
